@@ -1,0 +1,35 @@
+{
+    "name": "inszenium/MonitoringContaoManager-plugin",
+    "description": "Extended the Contao Monitoring Plugin.",
+    "type": "contao-module",
+    "keywords":["contao", "monitoring", "task", "tasks", "task management"],
+    "homepage":"https://inszenium.de/",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Kirsten Roschanski",
+			"email":"kirsten.roschanski@inszenium.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"info@inszenium.de",
+		"issues":"https://github.com/inszenium/contao-MonitoringContaoManager/issues",
+		"source":"https://github.com/inszenium/contao-MonitoringContaoManager"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core-bundle":"~3.2 || ~4.4",
+		"contao-monitoring/monitoring":"~1.8"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"src":"system/modules/MonitoringContaoManager"
+			}
+		},
+		"branch-alias": {
+			"dev-master": "1.1.x-dev"
+		}
+	}
+}
