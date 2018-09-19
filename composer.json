@@ -1,5 +1,5 @@
 {
-    "name": "inszenium/MonitoringContaoManager-plugin",
+    "name": "inszenium/monitoring-contao-manager-plugin",
     "description": "Extended the Contao Monitoring Plugin.",
     "type": "contao-module",
     "keywords":["contao", "monitoring", "task", "tasks", "task management"],
